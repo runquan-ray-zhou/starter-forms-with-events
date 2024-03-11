@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Playfair+Display&display=swap");
+/* *{
+  border: 1px solid gold
+} */
 
 html,
 body {
@@ -52,7 +55,7 @@ form input,
 form label,
 form textarea {
   box-sizing: border-box;
-  display: block;
+  /* display: block; */
   margin: 5px 0;
   width: 100%;
 }
@@ -120,5 +123,14 @@ button:hover {
 } */
 
 input[type="radio"] {
-  border: 1px solid plum;
+  border: 1px solid pink;
+}
+
+.radio {
+  width: 25px;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: block;
 }

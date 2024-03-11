@@ -30,9 +30,16 @@
           <label for="email">Contact Email</label>
           <input id="email" name="email" type="email" />
           <label for="notes">Notes</label>
-          <textarea id="notes" type="notes"></textarea>
-
-          <button type="submit">Create Contact</button>
+          <textarea id="notes" name="notes" type="notes"></textarea>
+          <label for="friend">Friend</label>
+          <input class="radio" id="friend" type="radio" name="relationship" checked />
+          <label for="family">Family</label>
+          <input class="radio" id="family" type="radio" name="relationship" />
+          <label for="co-worker">Co-worker</label>
+          <input class="radio" id="co-worker" type="radio" name="relationship" />
+          <label for="other">Other</label>
+          <input class="radio" id="other" type="radio" name="relationship" />
+          <button class="button" type="submit">Create Contact</button>
         </form>
       </section>
       <section class="contacts">
